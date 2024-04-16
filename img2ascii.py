@@ -59,7 +59,7 @@ def img_to_str(img, chars, pixel_width=2, silent=False):
 
 def main():
     parser = argparse.ArgumentParser(
-        prog="img2ascii",
+        prog="img_to_ascii.py",
         description="Convert an image into ASCII (or unicode) text"
     )
     parser.add_argument("image_path", help="Path to the image to convert")
