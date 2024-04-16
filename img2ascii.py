@@ -1,14 +1,12 @@
-
-
-from PIL import Image
-import json
-import argparse
-
 try:
     from tqdm import tqdm
 except ImportError:
     def tqdm(arg):
         return arg
+from PIL import Image
+
+import json
+import argparse
 
 
 def load_chars(path, pallet_idx=0, invert=False):
